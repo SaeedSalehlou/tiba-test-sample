@@ -51,4 +51,11 @@ fdescribe('A single describe', function () {
     expect(true).toBe(true);
   });
 
+  fit('test toBe matcher', () => {
+    debugger
+    expect(2).toBe(2);
+    expect(2).not.toBe(2); // failed
+    expect(2).toEqual(2);// return 5
+  })
+
 });
